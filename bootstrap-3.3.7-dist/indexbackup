@@ -1,0 +1,598 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+                                      <!-- Bootstrap Core CSS -->
+   
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+      <link href="css/styles.css" type="text/css" rel="stylesheet">
+      <link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+      <link href="css/animate.css" type="text/css" rel="stylesheet"> 
+     
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+                                  <!-- Google Fonts -->
+        
+     <link href="https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900" rel="stylesheet" type="text/css">
+        
+     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet" type="text/css">
+        
+     <link href="https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100" rel="stylesheet" type="text/css"> 
+    
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+          <nav class="menu" id="menu">
+      <!--     <h1><a class="logo" href="index.html" style="list-style:none;"><span style="font-weight:600;color:#fff;background-color:#e74c3c;padding-left:5px;">bM</span><span style="color:#e74c3c;background-color:#fff;padding-right:5px;">Designs</span></a></h1>     -->
+            
+                <ul class="main-nav js-main-navigation">                    
+                                    <li> <a href="#home"> Home </a></li>
+                                    <li> <a href="#scroll-to-services"> Services </a></li>
+                                    <li> <a href="#scroll-to-works"> Our Works </a></li>
+                                    <li> <a href="#scroll-to-team"> Team </a> </li>
+                                    <li> <a href="#scroll-to-testimonial"> Testimonials </a></li>
+                                    <li> <a href="#scroll-to-blog"> Blogs </a></li>
+                                    <li> <a href="#contact"> Contact </a></li>                   
+                    
+                </ul>
+                 <div class="mobile-nav-icon js-mobile-clickable-icon">
+                    <i class="ion-navicon-round"></i>
+           </div>
+            </nav>           </div>
+
+           
+        
+    </div>
+</header>
+  <section class="header-bg for-js-waypoint"  id="home">        
+            <div class="header-bg-overlay">
+             
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12 wow bounceInDown">
+                        
+                            <div id="carousel-header-bg" class="carousel slide" data-ride="carousel">
+                            
+                            
+                                <!-- indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                                    <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+                                    <li data-target="#carousel-testimonial" data-slide-to="3"></li>
+                                    
+                                   
+                                </ol>
+
+                                                         <!-- wrapper for slides -->
+                        <div class="carousel-inner">                                
+                                                                <!-- item 01 -->
+
+                            <div class="item active text-center">
+
+                                <div class="header-bg-caption">
+
+                                    <h2 style="color:#D8D8D8;">Welcome to <span class="primary">BM Designs</span></h2>
+
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+
+                                <a href="#" class="primary-bg wow fadeInLeft" style="margin-right:10px;">Get Started</a><a href="#" class="secondry-skyblue-bg wow fadeInRight">Contact Us</a>
+                                </div>
+
+                               <!--  <img src="images/client-01.jpg" alt="testimonial" class="center-block"> -->
+
+                            </div>
+
+                    <!-- item 02 -->
+
+                    <div class="item  text-center">
+
+                        <div class="header-bg-caption">
+
+                            <h2 style="color:#D8D8D8;">We Make <span class="primary">Awesome Themes</span></h2>
+
+                            <p>“In September 2013, I experienced severe pain in my left hip radiating into my lower back and down to my knee.” </p>
+
+                        <a href="#" class="primary-bg" style="margin-right:10px;">Get Started</a><a href="#" class="secondry-skyblue-bg">Contact Us</a>
+                        </div>
+
+                      <!--   <img src="images/client-01.jpg" alt="testimonial" class="center-block">--> 
+
+                    </div>                                    
+
+                    <!-- item 03 -->
+                   <div class="item  text-center">
+
+                        <div class="header-bg-caption">
+
+                            <h2 style="color:#D8D8D8;">We are <span class="primary">Developers</span></h2>
+
+                            <p>“In September 2013, I experienced severe pain in my left hip radiating into my lower back and down to my knee..”</p>
+
+                        <a href="#" class="primary-bg" style="margin-right:10px;">Get Started</a><a href="#" class="secondry-skyblue-bg">Contact Us</a>
+                        </div>
+
+                      <!--  <img src="images/client-01.jpg" alt="testimonial" class="center-block"> -->
+
+                    </div>
+                     <!-- item 03 -->
+                           <div class="item  text-center">
+
+                                <div class="header-bg-caption">
+
+                                    <h2 style="color:#D8D8D8;">A clean  and modern<span class="primary"> looking reponsive website</span></h2>
+
+                                     <p> Built with great love!</p>
+
+                                <a href="#" class="primary-bg" style="margin-right:10px;">Get Started</a><a href="#" class="secondry-skyblue-bg">Contact Us</a>
+                                </div>
+
+                              <!--  <img src="images/client-01.jpg" alt="testimonial" class="center-block"> -->
+
+                            </div>                                   
+                        </div>                                
+                    </div>                        
+                </div>                        
+            </div>                
+        </div>            
+    </div>
+        
+        </section>
+        <section class="services section-padding section-title" id="scroll-to-services">
+            <div class="services-header  js--waypoint-fadein">
+            <h2 class="">Services</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rerum fugiat<br> dolorum vitae repellendus laudantium cum aspernatur, sunt, aliquam perferendis<br> officia praesentium adipisci ea quisquam, repudiandae est, veniam at illo.</p>
+            </div>
+            <div class="services-content">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-4 block-display wow fadeInLeft" data-wow-duration="1s">
+                            <p><i class="fa fa-laptop"></i></p>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos quas, voluptatem laudantium veritatis, cumque obcaecati nobis iure doloribus expedita nihil amet minima in molestias rem? Magni, delectus nihil doloribus.</p>
+                        </div> 
+                         <div class="col-md-4 block-display wow bounceIn" data-wow-duration="1s">
+                            <p><i class="fa fa-edit"></i></p>
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos quas, voluptatem laudantium veritatis, cumque obcaecati nobis iure doloribus expedita nihil amet minima in molestias rem? Magni, delectus nihil doloribus.</p>
+                        </div>
+                         <div class="col-md-4 block-display  wow fadeInRight" data-wow-duration="1s">
+                            <p><i class="fa fa-cog"></i></p>
+                            <h3>PSD to Html</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos quas, voluptatem laudantium veritatis, cumque obcaecati nobis iure doloribus expedita nihil amet minima in molestias rem? Magni, delectus nihil doloribus.</p>
+                        </div>
+                    </div>
+                       <div class="row">
+                        <div class="col-md-4 block-display wow fadeInLeft" data-wow-duration="1s">
+                            <p><i class="fa fa-bars"></i></p>
+                            <h3>SEO</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos quas, voluptatem laudantium veritatis, cumque obcaecati nobis iure doloribus expedita nihil amet minima in molestias rem? Magni, delectus nihil doloribus.</p>
+                        </div>
+                         <div class="col-md-4 block-display wow bounceIn" data-wow-duration="1s">
+                            <p><i class="fa fa-leaf"></i></p>
+                            <h3>Theme Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos quas, voluptatem laudantium veritatis, cumque obcaecati nobis iure doloribus expedita nihil amet minima in molestias rem? Magni, delectus nihil doloribus.</p>
+                        </div>
+                         <div class="col-md-4 block-display  wow fadeInRight" data-wow-duration="1s">
+                            <p><i class="fa fa-globe"></i></p>
+                            <h3>Unlimited Support</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos quas, voluptatem laudantium veritatis, cumque obcaecati nobis iure doloribus expedita nihil amet minima in molestias rem? Magni, delectus nihil doloribus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="portfolio section-padding section-title" id="scroll-to-works">
+           
+            <div class="portfolio-header">
+             <h2>Our Works</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rerum fugiat<br> dolorum vitae repellendus laudantium cum aspernatur, sunt, aliquam perferendis<br> officia praesentium adipisci ea quisquam, repudiandae est, veniam at illo.</p>
+            </div>
+                <div class="container">
+                <div class="row">
+                 <div class="slider">
+                            
+                <div class="item">
+                <div class="inner-content">
+                <img src="images/socialnetwork.jpg" width="265" alt="Social-network"/>
+                 <div class="overlay-content">
+                    <h3 class="white">Socialnetwork Website</h3>
+                    <p class="margin-top:0px;"><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="item">
+                   <div class="inner-content">
+                    <img src="images/news1.jpg" width="265" alt="news"/>
+            <div class="overlay-content">
+                    <h3 class="white">News Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="item">
+                   <div class="inner-content">
+                    <img src="images/ecommerce.jpg" width="265" alt="ecommerce"/>
+                    <div class="overlay-content">
+                    <h3 class="white">Ecommerce Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+                  <div class="item">
+                   <div class="inner-content">
+                    <img src="images/blog.jpg" width="265" alt="blogs"/>
+                    <div class="overlay-content">
+                    <h3 class="white">Blog Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+                  <div class="item">
+                   <div class="inner-content">
+                    <img src="images/socialnetwork.jpg" width="265" alt="social-network"/>
+                    <div class="overlay-content">
+                    <h3 class="white">Socialnetwork Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                    </div>
+                    </div>
+                    </div>
+                      <div class="item">
+                       <div class="inner-content">
+                        <img src="images/ecommerce.jpg" width="265" alt="ecommerce" />
+                        <div class="overlay-content">
+                        <h3 class="white">Ecommerce Website</h3>
+                        <p><a href="">Click here</a> for details</p>
+                    </div>
+                    </div>
+                    </div>                  
+                </div>
+                <ul>
+                      <li id="next">
+                          Next
+                      </li>
+                      <li id="pre">
+                          Prev
+                      </li>
+                  </ul>
+        </div>
+        </div>
+            
+        </section>
+           <section class="team section-padding section-title" id="scroll-to-team">
+          <div class="team-header">
+            <h2 class="">Our Team</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rerum fugiat<br> dolorum vitae repellendus laudantium cum aspernatur, sunt, aliquam perferendis<br> officia praesentium adipisci ea quisquam, repudiandae est, veniam at illo.</p>
+            </div>
+             <div class="container">
+                <div class="row">
+                 <div class="teamslider">
+                            
+                <div class="item">
+                <div class="inner-content">
+                <img src="images/client-03.jpg" width="265" alt="Social-network"/>
+                 <div class="overlay-content">
+                    <h3>Socialnetwork Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="item">
+                   <div class="inner-content">
+                    <img src="images/client-01.jpg" width="265" alt="news"/>
+            <div class="overlay-content">
+                    <h3>News Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="item">
+                   <div class="inner-content">
+                    <img src="images/client-02.jpg" width="265" alt="ecommerce"/>
+                    <div class="overlay-content">
+                    <h3>Ecommerce Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+                  <div class="item">
+                   <div class="inner-content">
+                    <img src="images/client-03.jpg" width="265" alt="blogs"/>
+                    <div class="overlay-content">
+                    <h3>Blog Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                </div>
+                </div>
+                </div>
+                  <div class="item">
+                   <div class="inner-content">
+                    <img src="images/contact2.jpg" width="265" alt="social-network"/>
+                    <div class="overlay-content">
+                    <h3>Socialnetwork Website</h3>
+                    <p><a href="">Click here</a> for details</p>
+                    </div>
+                    </div>
+                    </div>
+                      <div class="item">
+                       <div class="inner-content">
+                        <img src="images/client-02.jpg" width="265" alt="ecommerce" />
+                        <div class="overlay-content">
+                        <h3>Ecommerce Website</h3>
+                        <p><a href="">Click here</a> for details</p>
+                    </div>
+                    </div>
+                    </div>
+
+                </div>
+        </div>
+        </div>
+            
+           
+            </section>
+           <!-- Testimonials -->
+    <section class="testimonial" id="scroll-to-testimonial">
+
+        <div class="testimonial-overlay">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 wow bounceInDown">
+
+                        <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+
+                            <!-- indicators -->
+                            <ol class="carousel-indicators">
+
+                                <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                                <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+
+                            </ol>
+
+                            <!-- wrapper for slides -->
+                            <div class="carousel-inner">
+
+                                <!-- item 01 -->
+                                <div class="item active text-center">
+                                <h2 class="white">Client Testimonials</h2>
+                                <p class="white"> Magnam commodi eaque perferendis ipsum, illo non<br>debitis alias deleniti obcaecati minus itaque nam optio pariatur odit provident necessitatibus quaerat at incidunt!</p>
+                                    <img src="images/client-01.jpg" alt="testimonial" class="center-block" width="150">
+                                    <div class="testimonial-caption">
+
+                                        <p><span class="primary">Daniel</span></p>
+                                        <h4><span> Sr. Software Engineer, </span>Blue Gyms</h4>
+                                        <p class="white">“In September 2013, I experienced severe pain in my left hip radiating into my lower back and down to my knee. I was incapacitated with a lot of pain and forced . ”</p>
+
+                                    </div>
+
+                                </div>
+
+                    <!-- item 02 -->
+                    <div class="item text-center">
+                        <h2 class="white">Client Testimonials</h2>
+                    <p class="white"> Magnam commodi eaque perferendis ipsum, illo non<br>debitis alias deleniti obcaecati minus itaque nam optio pariatur odit provident necessitatibus quaerat at incidunt!</p>
+
+                        <img src="images/client-02.jpg" alt="testimonial" class="center-block" width="150">
+
+                        <div class="testimonial-caption">
+
+                            <p><span class="primary">Rauls Pole</span></p>
+                            <h4><span> Marketting Manager, </span>Risko</h4>
+                            <p class="white">“My name is Nadeem Server and I am a patient of Dr. Shahid Rafiq who is an expert in prolotherapy. Prolotherapy is not a pain management therapy. On the contrary, i. ”</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- item 03 -->
+                    <div class="item text-center">
+                        <h2 class="white">Client Testimonials</h2>
+                    <p class="white"> Magnam commodi eaque perferendis ipsum, illo non<br>debitis alias deleniti obcaecati minus itaque nam optio pariatur odit provident necessitatibus quaerat at incidunt!</p>
+
+                        <img src="images/client-03.jpg" alt="testimonial" class="center-block" width="150">
+
+                        <div class="testimonial-caption">
+
+                            <p><span class="primary">Jim So</span></p>
+                            <h4><span> Assistan Manager, </span>Gidfo</h4>
+                            <p class="white">“In September 2013, I experienced severe pain in my left hip radiating into my lower back and down to my knee. I was incapacitated with a lot of pain and forced to lie on my back or side most of the time. The pain inflamed whenever I tried to walk or just sit down. ”</p>
+
+                                        </div>                                        
+                                    </div>
+                                    
+                                </div>                                
+                            </div>                        
+                        </div>                        
+                    </div>                
+                </div>            
+            </div>
+        
+        </section>
+        
+         <section class="section-padding blog section-title" id="scroll-to-blog">
+             <div class="services-header">
+             
+             <h2>Recent Posts from blog</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat consequuntur<br> fuga ea laudantium asperiores deserunt architecto<br> consequatur esse dolorum incidunt!</p>
+             </div>
+             <div class="container" style="text-align:center">
+                 <div class="row">
+                    
+         <div class="col-md-4">
+
+             <img src="images/faisal%20masjid%20(1).jpg" alt="faisal mosque" width="300">
+            <h3 class="post-name"><a href="#" class="secondary-sky-blue">Water Flying</a></h3>
+             <p class="post-description"><i>by</i><b><span class="primary">John </span></b><i>on</i><b class="date"> 12 Dec 2017</b></p>
+             <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corporis dolorum doloremque quia commodi, blanditiis expedita accusantium! Sequi quidem voluptate, ex error vero odit unde quasi non nihil, saepe delectus.</p>
+         </div>
+         <div class="col-md-4">
+             <img src="images/faisal%20masjid%20(1).jpg" alt="faisal mosque" width="300">
+            <h3 class="post-name"><a href="#" class="secondary-sky-blue">Awesome City</a></h3>
+             <p class="post-description"><i>by</i><b><span class="primary">John </span></b><i>on</i><b class="date"> 12 Dec 2017</b></p>
+             <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corporis dolorum doloremque quia commodi, blanditiis expedita accusantium! Sequi quidem voluptate, ex error vero odit unde quasi non nihil, saepe delectus.</p>
+         </div>
+         <div class="col-md-4">
+             <img src="images/faisal%20masjid%20(1).jpg" alt="faisal mosque" width="300">
+            <h3 class="post-name"><a href="#" class="secondary-sky-blue">Beautiful Sky</a></h3>
+             <p class="post-description"><i>by</i><b><span class="primary">John </span></b><i>on</i><b class="date"> 12 Dec 2017</b></p>
+             <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corporis dolorum doloremque quia commodi, blanditiis expedita accusantium! Sequi quidem voluptate, ex error vero odit unde quasi non nihil, saepe delectus.</p>
+                     </div>
+                 </div>
+             </div>
+         </section>
+          
+          <!-- Contact Us -->
+        
+        <section class="contact-us section-padding" id="CONTACT" >
+        
+            <div class="container wow bounceIn">
+            
+                    <div class="row">
+
+                        <div class="col-md-10 col-md-offset-1">
+                        
+                            <div class="section-title">
+                            
+                                <h2><span class="white">Contact Us</span></h2>
+                                <p><span class="white">We,re Happy to hear from You.</span></p>
+                                <br>
+                            </div>                            
+                        </div>
+                    </div>            
+            </div>
+            
+            <div class="contact-us-form wow bounceIn">
+            
+            
+                <div class="container">
+                
+                    <form role="form">
+                    
+                        <div class="row">
+                        
+                            <div class="col-md-4">
+                            
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            
+                            </div>
+                            
+                            <div class="col-md-8">
+                            
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Text...."></textarea>
+                                
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEND</button>
+                            
+                            </div>                        
+                        </div>                   
+                    
+                    </form>                
+                </div>            
+            </div>
+            
+        </section>
+        <footer style="padding-top:56px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                    
+                    <h2>About BM Designs</h2><hr>
+                    <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eum tempore magnam velit facilis quibusdam, incidunt assumenda, necessitatibus repellat dolor odit quia, quidem animi. Recusandae possimus iure molestiae sequi deleniti.</p><hr>
+                    <p style="margin-left:20px;"><i class="fa fa-envelope"></i><span class="contact-email">BMDesigns@gmail.com</span></p>
+                    <p style="margin-left:20px;"><i class="fa fa-mobile"></i><span class="contact-email">0300 647 6914</span></p>
+                    <p style="margin-left:20px;"><i class="fa fa-location-arrow"></i><span class="contact-email">BMDesigns Gulgasht colony Multan</span></p>
+                    </div>
+                    <div class="col-md-4">
+                    <h2>Get Blogs Update</h2>
+                    <hr>
+            <form>
+                        <fieldset>
+                            <input type="text" id="take-email" placeholder="Enter Your Email"/>                        </fieldset>
+                            <fieldset>
+                            <input type="submit" id="submit-button" value="Sign Up"/>
+                            </fieldset>                        
+             </form>
+                    </div>
+                    <div class="col-md-4">
+                    <h2>Stay in Touch</h2>
+                    <hr><center>
+                    <ul class="footer-social-networks" style="">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    </center>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="location">                
+                    <h4 class="white">Find Us on Google Map</h4>                   
+            </div>
+            <div id="map">
+                
+            </div>
+            <div class="copyright">
+                <p style="margin:0px;">Copyright &copy;<span style="color:#e74c3c;">BMDesigns</span> 2017 All rights Reserved</p>
+            </div>
+        </footer>
+                <script src="scripts/jquery.js"></script>
+                     
+                   
+                              <!-- Bootstrap Core JavaScript -->
+                    
+                <script src="scripts/bootstrap.min.js"></script>
+                    
+                               <!-- writing script for google map -->
+                 <script>
+                            function initMap(){
+                            var location = {lat: 30.229558, lng: 71.475384};
+                            var map = new google.maps.Map(document.getElementById("map"),{
+                                zoom: 4,
+                                center: location
+                            });
+                            var marker = new google.maps.Marker({
+                                position: location,
+                                map: map
+                            });
+                            }
+                </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVXbPp29IJ5Pg3ZpZCHAiQHRej7SlNJuA&callback=initMap"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                    <!-- end script for google map -->
+                    
+                      <!-- waterWheel JavaScript -->
+                  <script src="scripts/wow.min.js"></script>
+                 <script src="scripts/jquery.waypoints.min.js"></script>  
+                  <script src="scripts/jquery.waterwheelCarousel.js"></script>
+                  <script src="scripts/scripts.js"></script>
+                  <script src="scripts/jquery.bxslider.min.js"></script>
+                   
+</body>
+</html>
